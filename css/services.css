@@ -1,0 +1,49 @@
+/*main section*/
+.main-section .section-title {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .main-section .section-title {
+        font-size: 60px;
+        line-height: 60px;
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .main-section .section-title {
+        font-size: 53px;
+        line-height: 53px;
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .main-section .section-title {
+        font-size: 42px;
+        line-height: 42px;
+        letter-spacing: 0;
+    }
+}
+
+.section-parent > div {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.section-parent .section-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-section {
+    padding-top: 120px;
+    background-image: url(../img/sectionbg8.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
